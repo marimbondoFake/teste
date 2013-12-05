@@ -1,3 +1,3 @@
 # Simple Grunt Deploy Workflow
 
-## First tings first
+## First things first
