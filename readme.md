@@ -24,8 +24,10 @@ Vá ao seu diretório de projetos e crie uma nova pasta. Essa pasta receberá pr
 ### Package.json
 Nesse arquivo ficaram as configurações do seu projeto. A mais importante delas se refere as suas depêndencias, mas isso falaremos mais adiante. Para criarmos o arquivo, rodamos o comando `npm init` no terminal. Após o comando, digite as informações pedidas. Quando o arquivo for criado, teremos várias instruções nele, mas para o momento, podemos eliminar a maioria das configurações como no exemplo abaixo:
 
-`{
+```
+{
   "name": "example",
   "version": "0.0.0",
   "description": "an example package.json file"
-}`
+}
+```
