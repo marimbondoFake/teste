@@ -13,7 +13,7 @@ Lembrando que esse repositório tem como objetivo o ensino e não ser um projeto
 ## Instalando o Grunt
 - No terminal rodar o comando:
 
-	npm install -g grunt-cli
+`npm install -g grunt-cli`
 
 Dessa maneira, teremos o Grunt instalado de maneira global para usarmos em qualquer um dos nossos projetos.
 Para mais informações, visite o [guia oficial](http://gruntjs.com/getting-started).
