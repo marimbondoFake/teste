@@ -28,4 +28,4 @@ Nesse arquivo ficaram as configurações do seu projeto. A mais importante delas
   "name": "example",
   "version": "0.0.0",
   "description": "an example package.json file"
-}
+}`
