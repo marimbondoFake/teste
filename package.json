@@ -2,17 +2,7 @@
   "name": "example",
   "version": "0.0.0",
   "description": "an example package.json file",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/marimbondoFake/teste.git"
-  },
-  "author": "",
-  "license": "BSD",
-  "bugs": {
-    "url": "https://github.com/marimbondoFake/teste/issues"
+  "devDependencies": {
+    "grunt": "~0.4.2"
   }
 }
