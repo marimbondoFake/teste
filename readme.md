@@ -49,3 +49,4 @@ Aqui é importante entender a instrução "--save-dev". Sempre que instalarmos u
 A vantagem disso é que podemos utilizar o mesmo "package.json" em qualquer outro projeto, juntamente com as suas dependências. Ao criarmos um novo projeto, copiamos esse mesmo "package.json" e utilizamos o comando `npm install`. Dessa maneira, todos os nossos plugins serão instalados automaticamente, sem a necessidade de instalarmos "um por um".
 
 ### Gruntfile.js
+teste
