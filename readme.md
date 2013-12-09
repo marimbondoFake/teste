@@ -64,7 +64,8 @@ module.exports = function(grunt) {
 	grunt.registerTask('default', []);
 
 };
-``
+```
+
 Explicando:
 - `grunt.initConfig({})` é onde as instruções para nossos plugins vão ficar. Ou seja, as configurações necessárias para o funcionamento de acordo com nossas configurações desejadas.
 - `grunt.registerTask('default', [])` aqui ficaram as chamadas das nossas tarefas. Ela será definidada por um nome, aqui representado por 'default' e quais tarefas serão executadas, representados através de um Array.
