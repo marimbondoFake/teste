@@ -68,4 +68,4 @@ module.exports = function(grunt) {
 
 **Explicando:**
 - `grunt.initConfig({})` é onde as instruções para nossos plugins vão ficar. Ou seja, as configurações necessárias para o funcionamento de acordo com nossas configurações desejadas.
-- `grunt.registerTask('default', [])` aqui ficaram as chamadas das nossas tarefas. Ela será definidada por um nome, aqui representado por ***'default'*** e quais tarefas serão executadas, representados através de um Array.
+- `grunt.registerTask('default', [])` aqui ficaram as chamadas das nossas tarefas. Ela será definidada por um nome, aqui representado por ***'default'*** e quais tarefas serão executadas, representados através de um Array. As chamadas do Grunt são dadas pelo seguinte comando `grunt **nome da tarefa**`
