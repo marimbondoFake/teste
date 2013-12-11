@@ -45,6 +45,8 @@ Aqui é importante entender a instrução `--save-dev`. Sempre que instalarmos u
 
 A vantagem disso é que podemos utilizar o mesmo `package.json` em qualquer outro projeto, juntamente com as suas dependências. Ao criarmos um novo projeto, copiamos esse mesmo `package.json` e utilizamos o comando `npm install`. Dessa maneira, todos os nossos plugins serão instalados automaticamente, sem a necessidade de instalarmos "um por um".
 
+Se isso ficou um pouco confuso, me assista fazendo esses comandos direto no [terminal](http://showterm.io/60af356580ad9f92a733a).
+
 ### Gruntfile.js
 Todas as chamadas e comportamentos dos módulos vão ser editadas nesse arquivo.
 Como estamos aprendendo a utilizar o Grunt, não faremos [scaffolding](http://gruntjs.com/project-scaffolding) de algum projeto, vamos fazer o arquivo na mão mesmo.
@@ -121,7 +123,7 @@ Podemos fazer as seguintes chamadas:
 * `grunt sass` : Dessa maneira, todas as "funções" da tarefa serão chamadas. Primeiro a tarefa do objeto `dev` vai ocorrer depois, após seu término, `prod` vai ser processado.
 * `grunt sass:prod` : Somente as orientações do objeto `prod` serão chamadas.
 
-####Chamando mais de uma tarefa com o mesmo comandoTemos também a opção de concatenar os arquivos js também:
+####Chamando mais de uma tarefa com o mesmo comando:
 Exemplo:
 ```
 grunt.initConfig({
