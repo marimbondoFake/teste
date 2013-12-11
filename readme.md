@@ -121,7 +121,7 @@ Podemos fazer as seguintes chamadas:
 * `grunt sass` : Dessa maneira, todas as "funções" da tarefa serão chamadas. Primeiro a tarefa do objeto `dev` vai ocorrer depois, após seu término, `prod` vai ser processado.
 * `grunt sass:prod` : Somente as orientações do objeto `prod` serão chamadas.
 
-####Chamando mais de uma tarefa com o mesmo comando:
+####Chamando mais de uma tarefa com o mesmo comandoTemos também a opção de concatenar os arquivos js também:
 Exemplo:
 ```
 grunt.initConfig({
@@ -376,7 +376,7 @@ uglify : {
 	}
 }
 ```
-Temos também a opção de concatenar os arquivos js também. Você pode saber mais na [página do plugin](https://npmjs.org/package/grunt-contrib-uglify).
+Temos também a opção de concatenar os arquivos JS. Você pode saber mais na [página do plugin](https://npmjs.org/package/grunt-contrib-uglify).
 
 ###CSSMIN: https://npmjs.org/package/grunt-contrib-cssmin
 minifica e concatena os arquivos CSS
