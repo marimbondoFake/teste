@@ -1,0 +1,9 @@
+{
+	"eqnull" : true,
+	"unused" : true,
+	"browser" : true,
+	"curly" : true,
+	"plusplus" : true,
+	"strict" : true,
+	"trailing" : true
+}
